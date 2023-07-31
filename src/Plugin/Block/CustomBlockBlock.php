@@ -1,7 +1,5 @@
 <?php
 
-
-
 namespace Drupal\custom_block\Plugin\Block;
 
 use Drupal\Core\Block\BlockBase;
@@ -67,16 +65,6 @@ final class CustomBlockBlock extends BlockBase implements ContainerFactoryPlugin
       $container->get('entity_display.repository')
     );
   }
-
-  // /**
-  //  * {@inheritdoc}
-  //  */
-  // public function defaultConfiguration() {
-  //   return [
-  //     'task2' => '',
-  //     'view_mode' => 'teaser',
-  //   ] + parent::defaultConfiguration();
-  // }
 
   /**
    * {@inheritdoc}
