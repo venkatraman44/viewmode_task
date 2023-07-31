@@ -1,0 +1,7 @@
+block.settings.custom_block_custom_block:
+  type: block_settings
+  label: 'custom block block'
+  mapping:
+    example:
+      type: string
+      label: Example
